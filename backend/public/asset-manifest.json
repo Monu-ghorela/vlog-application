@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0a2d6f72.css",
+    "main.js": "/static/js/main.1991ae3b.js",
+    "static/js/787.3f8b9e2d.chunk.js": "/static/js/787.3f8b9e2d.chunk.js",
+    "static/media/react-wave-background-animation.webp": "/static/media/react-wave-background-animation.3e058d0c9edd4926e96e.webp",
+    "index.html": "/index.html",
+    "main.0a2d6f72.css.map": "/static/css/main.0a2d6f72.css.map",
+    "main.1991ae3b.js.map": "/static/js/main.1991ae3b.js.map",
+    "787.3f8b9e2d.chunk.js.map": "/static/js/787.3f8b9e2d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a2d6f72.css",
+    "static/js/main.1991ae3b.js"
+  ]
+}

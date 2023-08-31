@@ -1,0 +1,329 @@
+.App {
+  height: 1000px;
+  text-align: center;
+  background-color: #61dafb;
+  background-image: url("C:\Users\monug\vlogproject\vlog\public\leone-venter-VieM9BdZKFo-unsplash.jpg");
+background-size: cover;
+}
+.App-link {
+  color: #61dafb;
+}
+#vlog_logo {
+  width: 400px;
+}
+.inputs {
+  align-items: center;
+  margin: 24px auto;
+  border: 2px solid rgb(201, 126, 14);
+  background-color: rgb(251, 255, 252);
+  border-radius: 7px;
+  width: 200px;
+}
+.Login {
+  background-color: #61dafb;
+
+  height: 1000px;
+}
+.Loginpage {
+  background-image: url("C:\Users\monug\vlogproject\vlog\public\what-background-study-how-to-write.jpg");
+  background-size: cover;
+  height: 1000px;
+}
+.Loginpage input {
+  height: 30px;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+}
+.Loginpage button {
+  background-color: cornflowerblue;
+  width: 150px;
+  height: 38px;
+  border-radius: 98px 27px;
+}
+.Loginpage h4 {
+  float: none;
+}
+.errorhandle {
+  color: rgb(213, 75, 75);
+}
+.Footer {
+  box-shadow: 5px 5px 5px 10px rgb(106, 184, 128);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(106, 184, 128);
+  color: white;
+  text-align: center;
+}
+.Navbar {
+  height: 60px;
+  background-color: antiquewhite;
+  text-align: center;
+  justify-content: center;
+}
+.elements img {
+  height: 40px;
+  width: 60px;
+  float: left;
+  justify-content: center;
+}
+#searchButton1 {
+  margin: auto;
+  background-color: transparent;
+  /* border:  0.01px rgb(205, 144, 144) solid;; */
+  border: transparent;
+  border-radius: 5%;
+  text-align: center;
+}
+#searchButton1 :hover {
+  box-shadow: 1px 1px 1px 1px rgb(231, 224, 224);
+}
+#searchButton1 :active {
+  box-shadow: 1px 1px 1px 1px rgb(215, 102, 102);
+}
+.SearchHead {
+  height: 40px;
+  justify-content: first baseline;
+  background-color: #d1f5f5;
+}
+.SearchHead button {
+  height: 25px;
+  width: 25px;
+  background-color: transparent;
+  float: left;
+  border: 0px;
+}
+.SearchHead button:hover {
+  box-shadow: 1px 1px 1px 1px rgb(231, 224, 224);
+}
+.SearchHead button img {
+  height: 20px;
+  width: 20px;
+  float: left;
+}
+
+.ProfileHead {
+  height: 25px;
+  justify-content: first baseline;
+  background-color: #d1f5f5;
+}
+#Previous {
+  height: 25px;
+  width: 35px;
+  background-color: transparent;
+  float: left;
+  border: 0px;
+}
+#Previous:hover {
+  box-shadow: 1px 1px 1px 1px rgb(231, 224, 224);
+}
+#Previous img {
+  height: 20px;
+  width: 20px;
+  float: left;
+}
+#Previous:hover {
+  box-shadow: 1px 1px 1px 1px rgb(231, 224, 224);
+}
+#Previous img {
+  height: 20px;
+  width: 20px;
+  float: left;
+}
+.SearchInput {
+  border: 0.001px rebeccapurple solid;
+  background-color: transparent;
+  border-radius: 20px;
+}
+.SearchInput:focus {
+  border: 1px rebeccapurple solid;
+}
+
+#Dashboard {
+  height: 25px;
+  width: 35px;
+  background-color: transparent;
+  float: left;
+  border: 0px;
+}
+#Dashboard:hover {
+  box-shadow: 1px 1px 1px 1px rgb(231, 224, 224);
+}
+#Dashboard img {
+  height: 20px;
+  width: 20px;
+  float: left;
+}
+#Dashboard:hover {
+  box-shadow: 1px 1px 1px 1px rgb(161, 95, 95);
+}
+#Dashboard img {
+  height: 20px;
+  width: 20px;
+  float: left;
+}
+.Shrinked {
+  width: 35px;
+  height: auto;
+  box-shadow: 1px 1px 1px 2px #d1f5f5;
+  border: 1px #d1f5f5 solid;
+}
+.Detailed {
+  width: 150px;
+  height: auto;
+  box-shadow: 1px 1px 1px 2px #d1f5f5;
+
+  /* background-image: url("C:\Users\monug\vlogproject\vlog\public\react-wave-background-animation.webp"); */
+  border: 1px #d1f5f5;
+}
+.Shrinked img {
+  height: 25px;
+  width: 25px;
+}
+.Detailed img {
+  height: 25px;
+  width: 25px;
+}
+.Detailed h3:hover {
+  background-color: #e3f3f0;
+  cursor: pointer;
+}
+.Shrinked h1:hover {
+  background-color: #e3f0f0;
+  cursor: pointer;
+}
+.AddVlogButton {
+  width: 35px;
+  height: 25px;
+  background-color: darkseagreen;
+  border-radius: 7px;
+}
+.AddVlogButton:hover {
+  background-color: rgb(86, 117, 160);
+  cursor: pointer;
+}
+#VideoBlock {
+  height: 220px;
+  width: auto;
+  margin-top: 100px;
+}
+#sourcVideo {
+  width: auto;
+  height: 220px;
+}
+#Videoinput {
+  display: none;
+}
+#label {
+  background-color: #bfbac0;
+  display: block;
+  border: 1px blueviolet solid;
+  border-radius: 5px;
+  width: auto;
+  height: 40px;
+  margin-top: 20px;
+  /* margin-bottom: 2px; */
+}
+#Buttonupload {
+  background-color: #d1f5f5;
+  border-radius: 5px;
+  height: 40px;
+  width: 100px;
+  margin-top: 20px;
+}
+#vlog {
+  border: #d1f5f5 1px solid;
+  width: 250px;
+  margin: 10px;
+  height: 250px;
+  float: left;
+  border-radius: 20px;
+}
+#vlog:hover {
+  cursor: pointer;
+}
+#title {
+  border-radius: 10px;
+  height: 30px;
+  width: 250px;
+}
+#description {
+  border-radius: 10px;
+
+  height: 100px;
+  width: 250px;
+}
+#description::placeholder {
+  font-style: italic;
+  font-weight: 500;
+}
+#title::placeholder {
+  font-style: italic;
+  font-weight: 500;
+}
+
+#vlogInformation {
+  height: 20px;
+  border: red 1px solid;
+  /* float: left; */
+}
+#vlogInformation span {
+  /* display: inline-block; */
+  float: left;
+}
+#back {
+  background-color: rgb(236, 228, 236);
+  border: 1px black solid;
+}
+.Title {
+  color: black;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  font-weight: 500;
+  overflow: hidden;
+  display: block;
+  max-height: 4.4rem;
+  -webkit-line-clamp: 2;
+  /* display: box; */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  white-space: normal;
+  float: left;
+}
+#VlogVideo {
+  margin-top: 10px;
+  height: 300px;
+  width: -webkit-fill-available;
+  width: 600px;
+}
+.Watch {
+  height: 1000px;
+  text-align: center;
+  background-image: url("C:\Users\monug\vlogproject\vlog\public\leone-venter-VieM9BdZKFo-unsplash.jpg");
+  background-size: cover;
+}
+#profile {
+  height: 1000px;
+  background-color: #61dafb;
+  background-image: url("C:\Users\monug\vlogproject\vlog\public\leone-venter-VieM9BdZKFo-unsplash.jpg");
+background-size: cover;
+}
+.Addvlog {
+  background-color: #61dafb;
+
+  height: 1000px;
+  background-image: url("C:\Users\monug\vlogproject\vlog\public\leone-venter-VieM9BdZKFo-unsplash.jpg");
+
+  background-size: cover;
+}
+#LoginTo {
+}
+#ProfileIMage {
+  border-radius: 100px;
+  height: 214px;
+  margin: -100px;
+}
